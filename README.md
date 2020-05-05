@@ -24,7 +24,6 @@ tersebut.
 
 # 2 worker
 - sebelumnya pastikan docker desktop sudah terinstall.<br/>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "docker")<br/>
 
 - masuk ke halaman yang terdapat file yml.<br/>
 ![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_5/picture/step1.PNG "docker")<br/>
@@ -219,12 +218,5 @@ disesuaikan dengan alamat yang ada<br/>
 ![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_5/picture/step11.PNG "docker")<br/>
 
 
-# Kesimpulan
 
-ketika memberikan 100 partisi kepada 2 worker, itu akan memakan proses yang lebih singkat jika dibandingkan kita berikan<br/>
-ke 5 worker. karena worker yang lebih banyak itu menghabiskan waktu pada proses pemabagian kerja. jadi jika <br/>
-semakin banyak partisi yang kita berikan, nilai worker nya juga harus semakin banyak . agar pada saat melakukan<br/>
-proses pekerjaan akan lebih efektif dan efisien. tentunya jika nilai worker sedikit dan partisi yang diberikan<br/>
-itu banyak, akan terjadi overhead proses yang akan banyak membuang banyak waktu pada saat proses pembagian kerja kepada<br/>
-workernya.
 
